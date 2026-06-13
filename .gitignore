@@ -1,0 +1,67 @@
+# ===========================
+# Unity .gitignore
+# ===========================
+
+# Pastas geradas automaticamente pelo Unity — não versionadas
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Rr]ecycleBin/
+
+# Configurações locais de usuário (específicas por máquina)
+UserSettings/
+
+# Arquivos de projeto gerados automaticamente (o Unity os recria)
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# Arquivos de debug
+*.pidb.meta
+*.pdb.meta
+
+# Cache e metadados locais do Unity
+*.tmp
+*.tmp.meta
+[Tt]emp/
+ExportedObj/
+.consulo/
+.DS_Store
+
+# IDEs
+.idea/
+.vs/
+*.unitypackage.manifest
+
+# Pastas de asset stores (geralmente grandes e reinstaladas)
+# Descomente se não quiser versionar esses pacotes:
+# "Assets/AssetStoreTools*"
+
+# Resultados de teste
+[Tt]est[Rr]esult*/
+
+# Outras IDEs / SO
+*.pidb
+*.unityproj
+thumbs.db
+desktop.ini
+
+# ===========================
+# O que SIM é versionado:
+# Assets/         → scripts, cenas, prefabs, sons, etc.
+# ProjectSettings/ → configurações do projeto
+# Packages/        → dependências do projeto
+# ===========================
