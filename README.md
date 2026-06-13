@@ -61,8 +61,8 @@
 
   ### 1. Mini-mapa com rastreamento do jogador
 
-  Foi desenvolvido um sistema de mini-mapa que exibe a posição e a rotação do jogador em tempo real no canto inferior esquerdo da tela. A seta no mini-mapa
-  acompanha tanto o deslocamento quanto a direção para onde o jogador está olhando, permitindo navegação precisa pela cidade sem precisar pausar o jogo.
+  Foi desenvolvido um sistema de mini-mapa que exibe a posição e a rotação do jogador em tempo real no canto inferior esquerdo da tela. A seta no mini-mapa acompanha tanto o
+  deslocamento quanto a direção para onde o jogador está olhando, permitindo navegação precisa pela cidade sem precisar pausar o jogo.
 
   ```csharp
   using UnityEngine;
@@ -82,29 +82,29 @@
 
       void Update()
       {
-          // Posição no mini-mapa
           retTransform.anchoredPosition = new Vector2(
               jogador.position.x * escala,
               jogador.position.z * escala
           );
 
-          // Rotação acompanha o jogador
           retTransform.localEulerAngles = new Vector3(
               0, 0, -jogador.eulerAngles.y
           );
       }
   }
+  ```
 
-  <!-- Arraste aqui um print mostrando o mini-mapa na tela do jogo -->
-  Mini-mapa (minimapa.png)
+  ![Mini-mapa](minimapa.png)
 
   ---
-  2. Sistema de entrar e sair do carro
 
-  Foi desenvolvido um sistema de interação com veículos que detecta a proximidade do jogador ao carro vermelho e exibe um aviso na tela para entrar. Ao
-  pressionar E, o personagem é desativado, a câmera muda para a visão do veículo e o controle do carro é habilitado. Ao pressionar E novamente, o jogador
-  reaparece ao lado do carro e retoma o controle normal do personagem.
+  ### 2. Sistema de entrar e sair do carro
 
+  Foi desenvolvido um sistema de interação com veículos que detecta a proximidade do jogador ao carro vermelho e exibe um aviso na tela para entrar. Ao pressionar `E`, o personagem
+  é desativado, a câmera muda para a visão do veículo e o controle do carro é habilitado. Ao pressionar `E` novamente, o jogador reaparece ao lado do carro e retoma o controle
+  normal do personagem.
+
+  ```csharp
   using System.Collections;
   using System.Collections.Generic;
   using UnityEngine;
@@ -179,12 +179,13 @@
           if (scriptCarro != null) scriptCarro.enabled = false;
       }
   }
+  ```
 
-  <!-- Arraste aqui um print mostrando o jogador dentro ou entrando no carro -->
-  Entrar no carro (entrarcarro.png)
+  ![Entrar no carro](entrarcarro.png)
 
   ---
-  🛠️ Tecnologias Utilizadas
+
+  ## 🛠️ Tecnologias Utilizadas
 
   - Unity
   - C#
@@ -192,8 +193,7 @@
   - TextMesh Pro
 
   ---
-  👩‍💻 Desenvolvedora
 
-  Julia Lopes Coimbra
+  ## 👩‍💻 Desenvolvedora
 
-  ---
+  **Julia Lopes Coimbra**
