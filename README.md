@@ -35,7 +35,7 @@
 
   ## 🎬 Gameplay
 
-  [![Assista ao vídeo no YouTube](https://img.youtube.com/vi/SEU_ID_DO_VIDEO/0.jpg)](https://www.youtube.com/watch?v=SEU_ID_DO_VIDEO)
+  [![Assista ao vídeo no YouTube](https://img.youtube.com/vi/YcCSjRE3kJw/0.jpg)](https://www.youtube.com/watch?v=YcCSjRE3kJw)
 
   > Clique na imagem acima para assistir à gameplay completa no YouTube.
 
