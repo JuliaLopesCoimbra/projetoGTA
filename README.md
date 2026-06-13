@@ -1,7 +1,3 @@
-<img width="702" height="397" alt="minimapa" src="https://github.com/user-attachments/assets/594924ba-e5a8-49bf-9025-bf6a4d833923" />
-<img width="688" height="387" alt="carro" src="https://github.com/user-attachments/assets/99291589-565c-4960-a68d-b478a4f5f15b" />
-<img width="687" height="386" alt="combate" src="https://github.com/user-attachments/assets/9c851f4d-9d2d-4272-8364-2261f18a5652" />
-<img width="1357" height="767" alt="menu" src="https://github.com/user-attachments/assets/355d7d2a-d787-408b-9955-6065558bad77" />
 # 🧟 Apocalipse Zumbi
 
   ## Descrição
@@ -49,15 +45,15 @@
 
   ### Menu Principal
   <!-- Arraste sua imagem aqui no editor do GitHub -->
-  ![Menu Principal](COLE_AQUI_O_LINK_DO_PRINT_DO_MENU)
+  ![Menu Principal](menu.png)
 
   ### Gameplay - Combate com Zumbis
   <!-- Arraste sua imagem aqui no editor do GitHub -->
-  ![Combate](COLE_AQUI_O_LINK_DO_PRINT_DE_COMBATE)
+  ![Combate](combate.png)
 
   ### Gameplay - Dirigindo pela Cidade
   <!-- Arraste sua imagem aqui no editor do GitHub -->
-  ![Carro](COLE_AQUI_O_LINK_DO_PRINT_DO_CARRO)
+  ![Carro](carro.png)
 
   ---
 
@@ -100,7 +96,7 @@
   }
 
   <!-- Arraste aqui um print mostrando o mini-mapa na tela do jogo -->
-  Mini-mapa (COLE_AQUI_O_LINK_DO_PRINT_DO_MINIMAPA)
+  Mini-mapa (minimapa.png)
 
   ---
   2. Sistema de entrar e sair do carro
@@ -185,7 +181,7 @@
   }
 
   <!-- Arraste aqui um print mostrando o jogador dentro ou entrando no carro -->
-  Entrar no carro (COLE_AQUI_O_LINK_DO_PRINT_DO_CARRO_2)
+  Entrar no carro (entrarcarro.png)
 
   ---
   🛠️ Tecnologias Utilizadas
